@@ -1,0 +1,5 @@
+{
+  "name": "Root Detection Demo",
+  "description": "A demo React application designed to be loaded within an Android WebView. It showcases how a frontend can display root detection results passed from a native Android bridge. HTML/CSS/JS alone cannot reliably detect Android root access as these operations require access to low-level system files and commands, which are restricted within a browser environment for security reasons. A native Android component is essential to perform these checks securely and accurately, then communicate the result to the WebView.",
+  "requestFramePermissions": []
+}
